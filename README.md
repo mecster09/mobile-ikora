@@ -1,4 +1,4 @@
-\# Hero Upgrade Calculator
+# Hero Upgrade Calculator
 
 
 
