@@ -1,96 +1,83 @@
 # Hero Upgrade Calculator
 
+## Overview
 
-
-\## Overview
-
-The \*\*Hero Upgrade Calculator\*\* is a responsive Progressive Web App (PWA) designed to help players track and plan their hero progression.  
-
+The **Hero Upgrade Calculator** is a responsive Progressive Web App (PWA) designed to help players track and plan their hero progression.  
 Users can input their current upgrade levels across heroes, relics, weapons, and artifacts, and the app automatically calculates the materials required to reach maximum levels.
 
 
 
-\### Key Features
+## Key Features
 
-\- Track \*\*one hero at a time\*\*.
+\- Track one hero at a time.
 
-\- \*\*Material calculation\*\* from current progress → max levels (tables may be stubbed).
+\- Material calculation from current progress → max levels (tables may be stubbed).
 
 \- Validation for upgrade rules (e.g., only one Exotic weapon equipped).
 
-\- \*\*Responsive design\*\*: mobile-first, works across devices.
+\- Responsive design: mobile-first, works across devices.
 
-\- \*\*Light/Dark theme toggle\*\* for accessibility and personal preference.
+\- Light/Dark theme toggle for accessibility and personal preference.
 
-\- \*\*Modular layout\*\*:  
+\- Modular layout:
 
-&nbsp; 1. Hero Overview  
+  1. Hero Overview
 
-&nbsp; 2. Relics  
+  2. Relics
 
-&nbsp; 3. Weapons  
+  3. Weapons
 
-&nbsp; 4. Artifacts  
-
-
-
----
+  4. Artifacts
 
 
 
-\## Hero System Rules
+### Hero System Rules
+
+#### Heroes
+
+\- Legendary Hero → 4★, starting power: 0
+
+\- Mythic Hero → 5★, starting power: 500
+
+\- Can equip 2 weapons, but only 1 Exotic at a time.
 
 
 
-\### Heroes
+#### Upgrade Categories
 
-\- \*\*Legendary Hero\*\* → 4★, starting power: 0  
+##### Relic
 
-\- \*\*Mythic Hero\*\* → 5★, starting power: 500  
+\- Abilities: 3 per hero, Level 1 → 18 (starting at 1)
 
-\- Can equip \*\*2 weapons\*\*, but only \*\*1 Exotic\*\* at a time.
+\- Weapon Master: Level 0 → 5
 
-
-
-\### Upgrade Categories
-
-\- \*\*Relic\*\*  
-
-\- \*\*Abilities\*\*: 3 per hero, Level \*\*1 → 18\*\* (starting at 1)  
-
-\- \*\*Weapon Mastery\*\*: Level \*\*0 → 5\*\*  
-
-\- \*\*Relic Trait\*\*: Level \*\*0 → 3\*\*
+\- Relic Trait: Level 0 → 3
 
 
 
----
+Weapons
 
 
 
-\## Weapons
+\- Gear Level: 0 → 80 (increments of 5)
+
+\- Enhancement: 0 → 10
 
 
 
-\- \*\*Gear Level\*\*: 0 → 80 (increments of 5)  
+Mythic Weapons Only
 
-\- \*\*Enhancement\*\*: 0 → 10  
-
-
-
-\*\*Mythic Weapons Only\*\*  
-
-\- Up to \*\*3 mods\*\* (Mythic or Exotic), each Level \*\*0 → 10\*\*  
+\- Up to 3 mods (Mythic or Exotic), each Level 0 → 10
 
 
 
-\*\*Exotic Weapons Only\*\*  
+Exotic Weapons Only
 
-\- \*\*Refinement\*\*:  
+\- Refinement:
 
-&nbsp; - Catalyst: Level \*\*0 → 3\*\*  
+  - Catalyst: Level 0 → 3
 
-&nbsp; - Boost: Level \*\*1 → 7\*\*  
+  - Boost: Level 1 → 7
 
 
 
@@ -100,9 +87,9 @@ Users can input their current upgrade levels across heroes, relics, weapons, and
 
 \## Artifacts
 
-\- Up to \*\*4 artifacts equipped\*\*.  
+\- Up to 4 artifacts equipped.
 
-\- Each Level \*\*0 → 10\*\*  
+\- Each Level 0 → 10
 
 
 
@@ -116,27 +103,27 @@ Users can input their current upgrade levels across heroes, relics, weapons, and
 
 \### Core Features
 
-\- Input forms for \*\*hero, relics, weapons, artifacts\*\*.  
+\- Input forms for hero, relics, weapons, artifacts.
 
-\- \*\*Automatic material calculation\*\* to max levels.  
+\- Automatic material calculation to max levels.
 
-\- \*\*Validation rules\*\*:  
+\- Validation rules:
 
-&nbsp; - No duplicate Exotics.  
+  - No duplicate Exotics.
 
-&nbsp; - Mods only on Mythic weapons.  
+  - Mods only on Mythic weapons.
 
 
 
 \### UX/UI
 
-\- Progressive Web App (PWA).  
+\- Progressive Web App (PWA).
 
-\- Mobile-first responsive layout.  
+\- Mobile-first responsive layout.
 
-\- Theme toggle: Light/Dark.  
+\- Theme toggle: Light/Dark.
 
-\- Clear modular navigation.  
+\- Clear modular navigation.
 
 
 
@@ -146,9 +133,7 @@ Users can input their current upgrade levels across heroes, relics, weapons, and
 
 \## Project Scope
 
-This app serves as a \*\*planning and tracking tool\*\* for player progression.  
+This app serves as a planning and tracking tool for player progression.
 
-It does \*\*not require full material tables upfront\*\*—placeholders can be used for initial implementation.
-
-
+It does not require full material tables upfront—placeholders can be used for initial implementation.
 
