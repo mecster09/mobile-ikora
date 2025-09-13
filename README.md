@@ -1,11 +1,11 @@
 # Hero Upgrade Calculator
 
+
+
 ## Overview
 
 The **Hero Upgrade Calculator** is a responsive Progressive Web App (PWA) designed to help players track and plan their hero progression.  
 Users can input their current upgrade levels across heroes, relics, weapons, and artifacts, and the app automatically calculates the materials required to reach maximum levels.
-
-
 
 ## Key Features
 
@@ -55,9 +55,7 @@ Users can input their current upgrade levels across heroes, relics, weapons, and
 
 
 
-Weapons
-
-
+##### Weapons
 
 \- Gear Level: 0 → 80 (increments of 5)
 
@@ -65,13 +63,13 @@ Weapons
 
 
 
-Mythic Weapons Only
+###### Mythic Weapons Only
 
 \- Up to 3 mods (Mythic or Exotic), each Level 0 → 10
 
 
 
-Exotic Weapons Only
+###### Exotic Weapons Only
 
 \- Refinement:
 
@@ -81,11 +79,9 @@ Exotic Weapons Only
 
 
 
----
 
 
-
-\## Artifacts
+##### Artifacts
 
 \- Up to 4 artifacts equipped.
 
@@ -93,15 +89,11 @@ Exotic Weapons Only
 
 
 
----
 
 
+#### Requirements
 
-\## Requirements
-
-
-
-\### Core Features
+##### Core Features
 
 \- Input forms for hero, relics, weapons, artifacts.
 
@@ -115,7 +107,7 @@ Exotic Weapons Only
 
 
 
-\### UX/UI
+##### UX/UI
 
 \- Progressive Web App (PWA).
 
@@ -124,16 +116,4 @@ Exotic Weapons Only
 \- Theme toggle: Light/Dark.
 
 \- Clear modular navigation.
-
-
-
----
-
-
-
-\## Project Scope
-
-This app serves as a planning and tracking tool for player progression.
-
-It does not require full material tables upfront—placeholders can be used for initial implementation.
 
