@@ -4,95 +4,81 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Light theme colors */
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-
-  /* Destiny Rising specific colors */
-  --destiny-orange: oklch(0.7 0.2 35);
-  --destiny-cyan: oklch(0.6 0.15 200);
-  --destiny-gold: oklch(0.8 0.15 60);
-  --destiny-purple: oklch(0.5 0.2 280);
-  --destiny-glow: oklch(0.7 0.2 35 / 0.3);
+  /* Updated color palette for Destiny Rising gaming theme */
+  --background: oklch(0.98 0.01 210); /* Light cyan background */
+  --foreground: oklch(0.3 0.02 220); /* Dark blue-gray text */
+  --card: oklch(0.96 0.01 210); /* Light card background */
+  --card-foreground: oklch(0.25 0.05 210); /* Cyan-800 equivalent for cards */
+  --popover: oklch(0.98 0.01 210);
+  --popover-foreground: oklch(0.3 0.02 220);
+  --primary: oklch(0.25 0.05 210); /* Cyan-800 primary color */
+  --primary-foreground: oklch(0.98 0.01 210);
+  --secondary: oklch(0.65 0.15 25); /* Orange-600 accent */
+  --secondary-foreground: oklch(0.98 0.01 210);
+  --muted: oklch(0.94 0.01 210);
+  --muted-foreground: oklch(0.45 0.02 220);
+  --accent: oklch(0.65 0.15 25); /* Orange accent for highlights */
+  --accent-foreground: oklch(0.98 0.01 210);
+  --destructive: oklch(0.55 0.2 15);
+  --destructive-foreground: oklch(0.98 0.01 210);
+  --border: oklch(0.4 0.02 220);
+  --input: oklch(0.98 0.01 210);
+  --ring: oklch(0.25 0.05 210 / 0.5);
+  --chart-1: oklch(0.7 0.15 45); /* Gaming-themed chart colors */
+  --chart-2: oklch(0.6 0.2 15);
+  --chart-3: oklch(0.55 0.15 120);
+  --chart-4: oklch(0.6 0.2 240);
+  --chart-5: oklch(0.65 0.2 300);
+  --radius: 0.5rem;
+  --sidebar: oklch(0.25 0.05 210);
+  --sidebar-foreground: oklch(0.98 0.01 210);
+  --sidebar-primary: oklch(0.65 0.15 25);
+  --sidebar-primary-foreground: oklch(0.98 0.01 210);
+  --sidebar-accent: oklch(0.98 0.01 210);
+  --sidebar-accent-foreground: oklch(0.25 0.05 210);
+  --sidebar-border: oklch(0.4 0.02 220);
+  --sidebar-ring: oklch(0.25 0.05 210 / 0.5);
 }
 
 .dark {
-  /* Enhanced dark theme with pure black background and high contrast text */
-  --background: oklch(0 0 0); /* Pure black */
-  --foreground: oklch(0.985 0 0); /* Very light text */
-  --card: oklch(0 0 0);
-  --card-foreground: oklch(0.985 0 0); /* Very light text */
-  --popover: oklch(0 0 0); /* Pure black */
-  --popover-foreground: oklch(0.985 0 0); /* Very light text */
-  /* Fixed primary colors for better button contrast */
-  --primary: oklch(0.7 0.2 35); /* Destiny orange */
-  --primary-foreground: oklch(0 0 0); /* Black text on orange */
-  --secondary: oklch(0.15 0.03 220);
-  --secondary-foreground: oklch(0.985 0 0); /* Very light text */
-  --muted: oklch(0.15 0.03 220);
-  --muted-foreground: oklch(0.8 0.03 200); /* Lighter muted text */
-  --accent: oklch(0.15 0.03 220);
-  --accent-foreground: oklch(0.985 0 0); /* White text */
-  --destructive: oklch(0.5 0.2 15);
-  --destructive-foreground: oklch(0.985 0 0); /* White text */
-  --border: oklch(0.2 0.03 220);
-  --input: oklch(0.15 0.03 220);
-  --ring: oklch(0.7 0.2 35 / 0.5);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.1 0.03 220);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.7 0.2 35);
-  --sidebar-primary-foreground: oklch(0 0 0);
-  --sidebar-accent: oklch(0.15 0.03 220);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.2 0.03 220);
-  --sidebar-ring: oklch(0.7 0.2 35 / 0.5);
-
-  /* Dark theme Destiny colors */
-  --destiny-orange: oklch(0.7 0.2 35);
-  --destiny-cyan: oklch(0.6 0.15 200);
-  --destiny-gold: oklch(0.8 0.15 60);
-  --destiny-purple: oklch(0.5 0.2 280);
-  --destiny-glow: oklch(0.7 0.2 35 / 0.4);
+  /* Dark theme colors for gaming aesthetic */
+  --background: oklch(0.08 0.01 220); /* Very dark blue-gray */
+  --foreground: oklch(0.95 0.01 210); /* Light cyan text */
+  --card: oklch(0.12 0.02 220);
+  --card-foreground: oklch(0.95 0.01 210);
+  --popover: oklch(0.08 0.01 220);
+  --popover-foreground: oklch(0.95 0.01 210);
+  --primary: oklch(0.95 0.01 210);
+  --primary-foreground: oklch(0.08 0.01 220);
+  --secondary: oklch(0.2 0.02 220);
+  --secondary-foreground: oklch(0.95 0.01 210);
+  --muted: oklch(0.15 0.02 220);
+  --muted-foreground: oklch(0.65 0.01 210);
+  --accent: oklch(0.65 0.15 25); /* Orange accent remains vibrant in dark */
+  --accent-foreground: oklch(0.95 0.01 210);
+  --destructive: oklch(0.45 0.15 15);
+  --destructive-foreground: oklch(0.95 0.01 210);
+  --border: oklch(0.2 0.02 220);
+  --input: oklch(0.15 0.02 220);
+  --ring: oklch(0.4 0.02 220);
+  --chart-1: oklch(0.5 0.2 260);
+  --chart-2: oklch(0.6 0.15 160);
+  --chart-3: oklch(0.65 0.15 70);
+  --chart-4: oklch(0.55 0.2 300);
+  --chart-5: oklch(0.6 0.2 15);
+  --sidebar: oklch(0.12 0.02 220);
+  --sidebar-foreground: oklch(0.95 0.01 210);
+  --sidebar-primary: oklch(0.65 0.15 25);
+  --sidebar-primary-foreground: oklch(0.95 0.01 210);
+  --sidebar-accent: oklch(0.2 0.02 220);
+  --sidebar-accent-foreground: oklch(0.95 0.01 210);
+  --sidebar-border: oklch(0.2 0.02 220);
+  --sidebar-ring: oklch(0.4 0.02 220);
 }
 
 @theme inline {
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -129,13 +115,6 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-
-  /* Custom Destiny Rising color utilities */
-  --color-destiny-orange: var(--destiny-orange);
-  --color-destiny-cyan: var(--destiny-cyan);
-  --color-destiny-gold: var(--destiny-gold);
-  --color-destiny-purple: var(--destiny-purple);
-  --color-destiny-glow: var(--destiny-glow);
 }
 
 @layer base {
@@ -144,86 +123,5 @@
   }
   body {
     @apply bg-background text-foreground;
-    /* Enforced pure black background */
-    background-color: #000000 !important;
-    /* Subtle geometric background pattern */
-    background-image: radial-gradient(circle at 25% 25%, oklch(0.1 0.05 220 / 0.05) 0%, transparent 50%),
-      radial-gradient(circle at 75% 75%, oklch(0.1 0.05 200 / 0.05) 0%, transparent 50%);
-  }
-
-  /* Ensure all text elements have high contrast */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  span,
-  div,
-  label,
-  button {
-    color: #ffffff !important;
-  }
-
-  /* Override any card backgrounds to maintain black theme */
-  .card,
-  [data-card],
-  .bg-card {
-    background-color: #000000 !important;
-    color: #ffffff !important;
-  }
-}
-
-/* Destiny Rising specific utility classes */
-@layer utilities {
-  .destiny-glow {
-    box-shadow: 0 0 20px var(--destiny-glow);
-  }
-
-  .destiny-border {
-    border: 1px solid var(--destiny-orange);
-    box-shadow: inset 0 0 10px oklch(0.7 0.2 35 / 0.1);
-  }
-
-  .destiny-card {
-    background: linear-gradient(135deg, oklch(0.05 0.03 220) 0%, oklch(0.08 0.03 220) 100%) !important;
-    border: 1px solid oklch(0.2 0.03 220);
-    box-shadow: 0 4px 20px oklch(0 0 0 / 0.3), inset 0 1px 0 oklch(0.3 0.03 220 / 0.2);
-    color: #ffffff !important;
-  }
-
-  .destiny-button {
-    background: linear-gradient(135deg, var(--destiny-orange) 0%, oklch(0.6 0.18 30) 100%);
-    border: 1px solid var(--destiny-orange);
-    box-shadow: 0 0 15px oklch(0.7 0.2 35 / 0.3), inset 0 1px 0 oklch(0.8 0.15 40 / 0.3);
-    transition: all 0.2s ease;
-    color: #000000 !important;
-  }
-
-  .destiny-button:hover {
-    box-shadow: 0 0 25px oklch(0.7 0.2 35 / 0.5), inset 0 1px 0 oklch(0.8 0.15 40 / 0.3);
-    transform: translateY(-1px);
-  }
-
-  .legendary-glow {
-    box-shadow: 0 0 15px oklch(0.5 0.2 280 / 0.4);
-  }
-
-  .mythic-glow {
-    box-shadow: 0 0 15px oklch(0.7 0.2 35 / 0.4);
-  }
-
-  .exotic-glow {
-    box-shadow: 0 0 15px oklch(0.8 0.15 60 / 0.4);
-  }
-
-  /* High contrast text utilities */
-  .text-high-contrast {
-    color: #ffffff !important;
-  }
-
-  .bg-pure-black {
-    background-color: #000000 !important;
   }
 }

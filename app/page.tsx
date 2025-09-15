@@ -57,7 +57,7 @@ export default function HomePage() {
 
         <div className="text-center">
           <Link href="/hero">
-            <Button size="lg" className="text-lg px-8 py-3 destiny-button">
+            <Button size="lg" className="text-lg px-8 py-3">
               Start Tracking Your Hero
             </Button>
           </Link>
